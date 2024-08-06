@@ -1,4 +1,4 @@
-package ExerciciosResolvidosPorMin.CarrinhoCompra;
+package CarrinhoCompra;
 
 public class ItemModel {
 
@@ -30,7 +30,7 @@ public class ItemModel {
 
     @Override
     public String toString() {
-        return "ItemModel{" +
+        return "CarrinhoCompra.ItemModel{" +
                 "nome='" + nome + '\'' +
                 ", quantidade=" + quantidade +
                 ", preco=" + preco +

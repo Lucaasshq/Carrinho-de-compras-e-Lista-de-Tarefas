@@ -1,4 +1,4 @@
-package ExerciciosResolvidosPorMin.ListaTarefa;
+package ListaTarefa;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package ExerciciosResolvidosPorMin.ListaTarefa;
+package ListaTarefa;
 
 public class Tarefa {
 

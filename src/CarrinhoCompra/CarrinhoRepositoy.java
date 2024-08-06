@@ -1,4 +1,4 @@
-package ExerciciosResolvidosPorMin.CarrinhoCompra;
+package CarrinhoCompra;
 
 import java.util.ArrayList;
 import java.util.List;

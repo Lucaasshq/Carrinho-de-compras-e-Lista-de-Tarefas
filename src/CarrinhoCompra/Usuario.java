@@ -1,4 +1,4 @@
-package ExerciciosResolvidosPorMin.CarrinhoCompra;
+package CarrinhoCompra;
 
 public class Usuario {
 
