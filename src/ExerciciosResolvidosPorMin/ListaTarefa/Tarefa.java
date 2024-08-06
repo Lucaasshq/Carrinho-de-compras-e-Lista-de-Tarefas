@@ -1,4 +1,4 @@
-package ExerciciosResolvidoEmAula;
+package ExerciciosResolvidosPorMin.ListaTarefa;
 
 public class Tarefa {
 
@@ -13,4 +13,8 @@ public class Tarefa {
         return descricao;
     }
 
+    @Override
+    public String toString() {
+        return descricao;
+    }
 }

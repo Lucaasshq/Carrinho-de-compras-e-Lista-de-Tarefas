@@ -1,4 +1,4 @@
-package ExerciciosResolvidoEmAula;
+package ExerciciosResolvidosPorMin.ListaTarefa;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,5 +33,20 @@ public class TarefaRepository {
         System.out.println(tarefasList);
     }
 
+    public static void main(String[] args) {
+        TarefaRepository listaTarefa = new TarefaRepository();
+
+        listaTarefa.adicionarTarefa("Tarefa 1 teste");
+        listaTarefa.adicionarTarefa("Tarefa 2");
+        listaTarefa.adicionarTarefa("Tarefa 2");
+        System.out.println("O número total de elementos na lista é: " +listaTarefa.obterNumeroTotalTarefas());
+
+        listaTarefa.removerTarefa("Tarefa 2");
+
+        System.out.println("O número total de elementos na lista é: " +listaTarefa.obterNumeroTotalTarefas());
+
+        listaTarefa.obterDescricoesTarefas();
+
+    }
 
 }
